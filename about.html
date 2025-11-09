@@ -1,0 +1,466 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about Roof Chic, the trusted supplier for roofing contractors in Broward County Florida USA home improvement Hallandale and nationwide. Our story, values, and commitment to excellence.">
+  <meta name="keywords" content="roofing contractors in broward county florida usa home improvement hallandale, roofing companies in usa, roofers usa, about roof chic">
+  <title>About Our Roofing Supply Company — Roof Chic</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<style>
+/* Zappy Attribution Header Styles */
+.zappy-header {
+  position: static;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.04);
+  padding: 16px 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 21px;
+}
+
+    .zappy-header p {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      white-space: nowrap;
+      display: inline-block;
+      vertical-align: baseline;
+      margin-bottom: 0 !important;
+    }
+
+.zappy-header .zappy-link {
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.zappy-header .zappy-link:hover {
+  opacity: 0.7;
+}</style>
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    <!-- Mickidum Accessibility Toolbar -->
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+<!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: '99276665-71f8-442f-8724-a004effce749',
+    apiUrl: 'https://api.zappy5.com/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        trackEvent('click', {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        });
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        trackEvent('navigation', {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        });
+      }
+    }, true);
+  }
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Zappy Attribution Header -->
+<div id="zappy-attribution-header" class="zappy-header" style="display: none;">
+  <p>Happily created by&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link">Zappy</a></p>
+</div>
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="nav-brand">
+        <a href="/" class="logo-link">
+          <img src="assets/roof-chic-construction-roofing-logo.webp" alt="roof chic" class="logo" />
+        </a>
+      </div>
+      
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+        </svg>
+        <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+          <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+        </svg>
+      </button>
+      
+      <button class="phone-header-btn" aria-label="Call us">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+      </button>
+      
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="/products">Products</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+      
+      <div class="nav-cta-container">
+        <li class="nav-cta-item">
+          <a href="/contact" class="nav-cta-btn">Contact</a>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>About Roof Chic: Your Trusted Partner in Roofing Excellence</h1>
+      <h3>Built on integrity, driven by quality—serving roofing contractors in USA with premium materials and exceptional service since our founding.</h3>
+    </div>
+  </section>
+
+  <section class="about-story">
+    <div class="container">
+      <div class="story-content">
+        <h2>Our Story</h2>
+        <p>Roof Chic was founded with a simple but powerful mission: to provide roofing contractors in USA with access to premium roofing materials backed by unparalleled service and support. What started as a regional supplier has grown into a trusted nationwide partner for roofing companies in USA from coast to coast.</p>
+        <p>We recognized early on that professional roofers USA needed more than just a place to buy materials—they needed a partner who understood the demands of their trade, the importance of quality products, and the critical nature of reliable delivery. This insight has shaped everything we do, from our product selection to our customer service philosophy.</p>
+        <p>Today, we're proud to serve roofing contractors in Broward County Florida USA home improvement Hallandale and professional roofers nationwide. Our growth has been driven by our commitment to excellence and the trust that contractors place in us to supply the materials that protect their customers' most valuable investments—their homes and buildings.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-values">
+    <div class="container">
+      <h2>Our Core Values</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Quality First</h3>
+          <p>We supply only premium products from trusted manufacturers. Every item in our inventory meets rigorous quality standards, ensuring roofing companies in USA receive materials they can count on for lasting performance.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon"><i class="fas fa-handshake"></i></div>
+          <h3>Reliability</h3>
+          <p>Roofing contractors in USA depend on us to deliver materials on time, every time. Our commitment to reliable service means you can confidently schedule projects knowing your materials will arrive as promised.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon"><i class="fas fa-users"></i></div>
+          <h3>Partnership</h3>
+          <p>We view every relationship as a partnership. By understanding the unique needs of roofers USA, we provide personalized service and support that helps our customers succeed and grow their businesses.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Expertise</h3>
+          <p>Our team brings deep knowledge of roofing materials and installation techniques. We share this expertise freely, helping roofing contractors in USA make informed decisions for every project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-difference">
+    <div class="container">
+      <h2>What Sets Us Apart</h2>
+      <div class="difference-content">
+        <p>In an industry where many suppliers treat contractors as just another transaction, Roof Chic stands apart. We've built our reputation on understanding that the success of roofing companies in USA is directly tied to the quality of materials they install and the reliability of their suppliers.</p>
+        <p>Our extensive inventory ensures that roofing contractors in Broward County Florida USA home improvement Hallandale and nationwide can find exactly what they need for any project—from standard residential applications to specialized commercial installations. We maintain deep stock levels of popular items while also offering quick access to specialty products through our manufacturer partnerships.</p>
+        <p>But inventory is just the beginning. Our technical support team includes experienced professionals who understand the real-world challenges that roofers USA face on job sites. Whether you need help selecting the right underlayment for a specific application or guidance on proper flashing techniques, we're here to help.</p>
+        <p>We've also invested heavily in our logistics infrastructure to ensure fast, reliable delivery. Our distribution network and shipping partnerships enable us to get materials to your job site quickly, helping you maintain project schedules and keep customers satisfied.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-commitment">
+    <div class="container">
+      <h2>Our Commitment to You</h2>
+      <div class="commitment-content">
+        <p>When you choose Roof Chic as your roofing materials supplier, you're not just buying products—you're gaining a partner committed to your success. We pledge to:</p>
+        <ul class="commitment-list">
+          <li><i class="fas fa-check-circle"></i> Maintain the highest quality standards in every product we supply</li>
+          <li><i class="fas fa-check-circle"></i> Provide honest, expert guidance on product selection and application</li>
+          <li><i class="fas fa-check-circle"></i> Deliver materials on time with accurate order fulfillment</li>
+          <li><i class="fas fa-check-circle"></i> Offer competitive pricing that helps you maintain healthy margins</li>
+          <li><i class="fas fa-check-circle"></i> Stand behind every product with comprehensive warranty support</li>
+          <li><i class="fas fa-check-circle"></i> Continuously expand our product offerings to meet evolving needs</li>
+          <li><i class="fas fa-check-circle"></i> Treat every contractor with the respect and service they deserve</li>
+        </ul>
+        <p>These aren't just words—they're the principles that guide our daily operations and inform every decision we make. From our warehouse team to our customer service representatives, everyone at Roof Chic is committed to supporting roofing contractors in USA with excellence in every interaction.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Experience the Roof Chic Difference?</h2>
+        <p>Join the thousands of satisfied roofing contractors who trust us for premium materials and exceptional service. Let's start building a partnership today.</p>
+        <a href="/contact" class="btn-primary">Contact Us Today</a>
+      </div>
+    </div>
+  </section>
+
+  <a href="https://wa.me/[whatsapp_handle]" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  
+    <!-- Legal Footer -->
+    <footer class="legal-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="all-rights-reserved">
+            <p>© 2025 roof chic. All rights reserved.</p>
+          </div>
+          <div class="footer-social"><a href="https://facebook.com/[facebook_handle]" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+<a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div>
+          <div class="footer-legal">
+            <a href="privacy.html" aria-label="Privacy Policy">
+              Privacy Policy
+            </a>
+            <span class="separator">|</span>
+            <a href="accessibility.html" aria-label="Accessibility">
+              Accessibility
+            </a>
+            <span class="separator">|</span>
+            <a href="terms.html" aria-label="Terms & Conditions">
+              Terms & Conditions
+            </a>
+          </div>
+        </div>
+        <div class="zappy-attribution">
+          <p>Generated by <a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Zappy</a></p>
+        </div>
+      </div>
+    </footer>
+
+
+<!-- Zappy Attribution Header Script -->
+<script>
+(function() {
+  var websiteId = '99276665-71f8-442f-8724-a004effce749';
+  
+  // Don't show header in preview mode
+  var currentUrl = window.location.href;
+  var isPreview = currentUrl.includes('/preview/') || 
+                  currentUrl.includes('/preview-fullscreen/') || 
+                  currentUrl.includes('localhost:5001') ||
+                  currentUrl.includes('localhost:3000');
+  
+  if (isPreview) {
+    return; // Exit early in preview mode
+  }
+  
+  fetch('https://api.zappy5.com/api/website/' + websiteId + '/tier')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.showAttribution) {
+        var header = document.getElementById('zappy-attribution-header');
+        if (header) {
+          header.style.display = 'block';
+        }
+      }
+    })
+    .catch(function(error) {
+      console.error('Failed to check tier:', error);
+    });
+})();
+</script>
+    <div data-integration="accessibility:toolbar"></div>
+    <script src="script.js"></script>
+</body></html>
